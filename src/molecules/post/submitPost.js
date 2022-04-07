@@ -66,7 +66,7 @@ const [gif, setGif]= useState("");
 {gif && <Gif noLink={true}
       hideAttribution={true} gif={gif} width={"100%"} height={400} />}
           <Button label="Post" className="btn-primary" handleBtnClick={onPostSubmit} isDisable={gif=="" ? value == currentLocal.inputLabel || value == 0  ?  true : false : false}/>
-          <Popup onBtnClick={onBtnClick} show={show} onHandleGifClick={(temp)=>{setGif(temp); setValue("")}}/>
+          <Popup onBtnClick={onBtnClick} show={show} onHandleGifClick={(temp)=>{setGif(temp);}}/>
         </>}
       />
     </Card>
