@@ -2,7 +2,7 @@
     background-color: #242526;
     padding: 12px 16px 12px 16px;
     border-radius: 10px;
-    width: clamp(400px, 60vw, 600px);
+    width: clamp(63px, 82vw, 700px);
     text-align: left;
     margin: auto;
   }
