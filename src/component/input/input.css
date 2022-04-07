@@ -1,0 +1,41 @@
+.text-area{
+    background-color: #3a3b3c;
+    border-radius: 50px;
+    height: auto;
+    min-height: 50px;
+    border: 1px solid transparent;
+    width: 99%;
+    color: #a1a4a8;
+    font-size: 20px;
+    cursor: pointer;
+    padding-left: 10px;
+    
+  }
+  .sm-text-area{
+    background-color:#3a3b3c;
+    border-radius: 50px;
+    height: auto;
+    min-height: 20px;
+    border: 1px solid transparent;
+    width: 70%;
+    color: #b0b3b8;
+    font-size: 20px;
+    padding-left: 10px;
+
+  }
+  .sm-text-area:hover{
+    background-color: #505252;
+
+  }
+  .sm-text-area:focus{
+    outline:none;
+  }
+  .text-area:hover{
+    /* border: 1px solid white; */
+    background-color: #505252;
+  
+  
+  }
+  .text-area:focus{
+    outline:none;
+  }

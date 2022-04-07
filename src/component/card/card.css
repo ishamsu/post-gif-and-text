@@ -1,0 +1,8 @@
+.card-container{
+    background-color: #242526;
+    padding: 12px 16px 12px 16px;
+    border-radius: 10px;
+    width: clamp(400px, 60vw, 600px);
+    text-align: left;
+    margin: auto;
+  }

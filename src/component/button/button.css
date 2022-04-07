@@ -1,0 +1,34 @@
+.btn{
+    width: 100%;
+    height: 35px;
+    background-color:#505151 ;
+    color: #858686;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid transparent;
+    font-size: 1rem;
+
+}
+.btn-primary{
+    background-color: #2374e1;
+    color: white;
+}
+.btn-secondary{
+    width: 200px;
+    background-color:#3a3b3c ;
+    color: white;
+    font-weight: 600;
+
+}
+.btn-primary:hover{
+    background-color: #2375e1b0;
+    color: white;
+}
+.btn-disabled{
+    background-color: #505151;
+    color: #858686;
+
+}
+.btn-disabled:hover{
+    cursor: not-allowed;
+}
